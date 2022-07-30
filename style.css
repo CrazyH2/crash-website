@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui;
+}
+  
+.topnav {
+  overflow: hidden;
+  background-color: #DCFFD8;
+  width: 100%;
+  z-index: 1000;
+}
+
+.topnav a {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav button {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-color: transparent;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.profilePic {
+  width: 15%;
+  height: 15%;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 100%;
+}
+
+.intro {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.about {
+  padding: 40px;
+  padding-top: 80px;
+  text-align: justify;
+}
+
+.project {
+  text-align: center;
+  position: relative;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h1 {
+  font-size: 6vw;
+  position: absolute;
+  top: 20%;
+  left: 27%;
+}
+
+.project h3 {
+  font-size: 4vw;
+  position: absolute;
+  top: 35%;
+  left: 36%;
+}
+
+.project a {
+  font-size: 3vw;
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  text-decoration: none;
+}
+
+.noticeBanner * {
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.noticeBanner {
+  text-align: center;
+  padding: 10px;
+  width: vw;
+}
+
+.noticeBanner .important {
+  color: red;
+}
+
+#buttonIcon {
+  padding-right: 5px;
+}
+
+.fa-swift {
+  color: orange;
+}
